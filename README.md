@@ -11,7 +11,6 @@ A simple calculator application built using the Flutter framework. It provides a
 
 ## Screenshot
 
-*(A screenshot of the running application would go here.)*
 ![Simple Calculator App Preview](screenshots/app_screenshot.png)
 
 ## Getting Started
