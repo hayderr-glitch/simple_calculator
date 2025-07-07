@@ -1,16 +1,45 @@
-# simple_calculator
+# Simple Calculator
 
-A new Flutter project.
+A simple calculator application built using the Flutter framework. It provides a clean user interface for performing basic arithmetic operations on two numbers.
+
+## Features
+
+- **Two Number Input**: Text fields for entering the first and second number.
+- **Basic Arithmetic**: Perform Addition (+), Subtraction (-), Multiplication (*), and Division (/).
+- **Clear Result Display**: The result is shown in a distinct, easy-to-read area.
+- **Error Handling**: Gracefully handles invalid inputs (non-numeric values) and division by zero.
+
+## Screenshot
+
+*(A screenshot of the running application would go here.)*
+![Simple Calculator App Preview](screenshots/app_screenshot.png)
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+To get a local copy up and running, follow these simple steps.
 
-A few resources to get you started if this is your first Flutter project:
+### Prerequisites
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+You need to have the Flutter SDK installed on your system. For instructions, please see the [official Flutter documentation](https://docs.flutter.dev/get-started/install).
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Installation & Running
+
+1.  **Clone the repository** (or download the source code).
+    ```sh
+    git clone https://github.com/your-username/simple_calculator.git
+    ```
+
+2.  **Navigate to the project directory**.
+    ```sh
+    cd simple_calculator
+    ```
+
+3.  **Install dependencies**.
+    ```sh
+    flutter pub get
+    ```
+
+4.  **Run the app**.
+    ```sh
+    flutter run
+    ```
