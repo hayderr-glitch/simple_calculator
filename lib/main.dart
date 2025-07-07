@@ -143,7 +143,21 @@ class _MyHomePageState extends State<MyHomePage> {
               ],
             ),
             const SizedBox(height: 30),
-            Text(_result, style: Theme.of(context).textTheme.headlineMedium),
+            Container(
+              width: double.infinity,
+              padding: const EdgeInsets.symmetric(vertical: 24.0),
+              decoration: BoxDecoration(
+                color: Theme.of(context).colorScheme.surfaceVariant,
+                borderRadius: BorderRadius.circular(8),
+              ),
+              child: Text(
+                _result.isEmpty ? 'Result will be shown here' : _result,
+                textAlign: TextAlign.center,
+                style: Theme.of(context).textTheme.headlineMedium?.copyWith(
+                  color: Theme.of(context).colorScheme.onSurfaceVariant,
+                ),
+              ),
+            ),
           ],
         ),
       ),
